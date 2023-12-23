@@ -103,7 +103,7 @@ if __name__ == '__main__':
 
     #Returning the average star rating for a restaurant based on its reviews
     print("\nReturning the average star rating for a restaurant based on its reviews")
-    print(Moonlight.average_star_rating())
+    # print(Moonlight.average_star_rating())
 
 # DO NOT REMOVE THIS
     # ipdb.set_trace()
