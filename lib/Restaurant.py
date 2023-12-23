@@ -18,6 +18,6 @@ class Restaurant:
         if not self.reviews:
             return 0  
 
-        total_rating = sum(review.rating for review in self._reviews)
+        total_rating = sum([review.review_rating() for review in self._reviews])
         average_rating = total_rating / len(self._reviews)
         return average_rating
