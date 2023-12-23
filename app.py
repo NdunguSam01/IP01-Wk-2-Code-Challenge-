@@ -52,6 +52,7 @@ if __name__ == '__main__':
     #Creating a review
     print("\nCreating a review instance")
     first_review=Review(Samuel,Moonlight,"9")
+    print(first_review.__dict__)
 
     #Printing the review rating
     print("\nPrinting the review rating")
